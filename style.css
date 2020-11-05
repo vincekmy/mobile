@@ -1,0 +1,116 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+body
+{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid black;    */
+}
+header
+{
+    width:100%;
+    height: 110px;
+    background-color: black;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+nav {               /* ------------- debut du menu mobile ------------- */
+        
+    padding: 10px;
+    position: absolute;
+      
+}
+
+.menu-icon {
+
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #ffffff url("../images/icon-menu.png") center;
+
+}
+nav ul, nav:active ul {
+
+    display: none; /* cache la fenetre */   
+    padding-left: 10px;
+    background: rgb(255, 255, 255);
+    border: 4px solid rgb(152, 152, 152);
+    right: 20px;
+    top: 60px;
+    width: 50%;  /* ajuste la taille de la fenetre */
+    height: 60%;
+    border-radius: 6px 0 6px 6px;
+    box-shadow: 2px 2px 2px black;
+    
+   
+}
+nav > ul{
+    width: 110%;
+}
+
+nav li {
+
+    border-bottom: 1px solid rgb(91, 90, 90);
+    text-align: left;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+li a {
+    
+    color: black;
+    font-weight: bold;
+    font-family: 'Belgrano', serif;
+    line-height: 4; 
+    text-decoration: none;   
+}
+
+nav:hover ul{    /*fait apparaitre la fenetre au survol */
+    display: block;
+    background-color: rgb(255, 255, 255); 
+    position: relative;
+    top: 0px;
+    right: 10px;
+    width: 100%;
+}
+
+
+                        /* -------------- FIN DU MENU MOBILE -------------- */
+
+
+.mes_competences{
+    margin-top: 200px;
+    text-align: center;    
+}
+.competences{
+    padding: 20px;
+}
+.text_outil{
+    padding-top: 10px;
+}
+
+@media all  and (min-width: 600px)and (max-width: 960px){
+
+
+
+    .mes_competences{
+            display: flex;
+            justify-content: space-around;
+    }
+    
+
+
+
+}
