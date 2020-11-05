@@ -173,6 +173,7 @@ body {
   list-style-type: none;
   text-align: center;
   width: 100%;
+  height: 220px;
 }
 
 .button .screen {
@@ -221,13 +222,17 @@ body {
     font-weight: bold;
   }
   .lien {
-    width: 100%;
-    height: 480px;
-    padding-bottom: 20px;
+    width: 80% !important;
+    height: 370px !important;
   }
-  .lien .screen {
-    width: 80%;
-    height: 400px;
+  .screen {
+    width: 90% !important;
+    height: 80% !important;
+    padding: 15px !important;
+    margin-top: 15px !important;
+  }
+  .sous-titre {
+    padding-top: 30px;
   }
 }
 
@@ -263,6 +268,23 @@ body {
     width: 50%;
     padding-left: 40px;
     padding-top: 50px;
+  }
+  .lien {
+    list-style-type: none;
+    text-align: center;
+    width: 100% !important;
+    height: 680px !important;
+    padding-bottom: 30px;
+  }
+  .screen {
+    width: 80% !important;
+    height: 90% !important;
+    margin: 10px !important;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 5px 3px grey;
+            box-shadow: 3px 5px 3px grey;
   }
 }
 
@@ -318,8 +340,8 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  p {
-    padding-right: 50px !important;
+  .foot p {
+    padding-right: 20px !important;
   }
 }
 
