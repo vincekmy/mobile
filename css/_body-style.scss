@@ -12,9 +12,13 @@ body{
     display: flex;  
     flex-direction: column;
     justify-content: center;
+    padding: 30px;
 
     .competences{
         text-align: center;
+    }
+    .pieces{
+        padding: 15px;
     }
    
     .comp{
@@ -148,5 +152,37 @@ body{
 
     }
     
+    }
+}
+
+@media screen and (min-width: 1025px){
+    
+    .mes_competences{
+        display: flex;  
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .About{
+        height: 555px;
+        
+        .vincecrea{
+            height: 555px;
+        }
+        .bonjour{
+            font-size: 36px;
+            padding-bottom: 50px;
+            padding-top: 30px;
+        }
+    
+        .p1{
+            font-size: 20px;
+            text-align: left;
+            width: 50%;
+            padding-left: 40px;
+            padding-top: 50px;
+    
+        }
     }
 }

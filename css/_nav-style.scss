@@ -29,6 +29,20 @@ $font-paraf: 'Prompt', sans-serif;
             padding-left: 20px;
         }
             a{
-                color: rgb(206, 206, 206)!important;
+                color: rgb(201, 201, 201)!important;
             }
+}
+
+@media screen and (min-width: 1025px){
+
+    .menu{
+        padding: 20px;
+        li{
+            font-size: 22px;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+
 }

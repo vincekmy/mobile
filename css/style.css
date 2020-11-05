@@ -56,7 +56,19 @@ header h1 {
     padding-left: 20px;
   }
   a {
-    color: #cecece !important;
+    color: #c9c9c9 !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .menu {
+    padding: 20px;
+  }
+  .menu li {
+    font-size: 22px;
+  }
+  .menu a:hover {
+    color: red;
   }
 }
 
@@ -77,10 +89,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 30px;
 }
 
 .mes_competences .competences {
   text-align: center;
+}
+
+.mes_competences .pieces {
+  padding: 15px;
 }
 
 .mes_competences .comp {
@@ -214,16 +231,52 @@ body {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .mes_competences {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .About {
+    height: 555px;
+  }
+  .About .vincecrea {
+    height: 555px;
+  }
+  .About .bonjour {
+    font-size: 36px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .About .p1 {
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+}
+
 .foot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: black;
   width: 100%;
   height: 120px;
@@ -249,7 +302,6 @@ body {
   border-right: 2px solid white;
   border-left: 2px solid white;
   width: 33.3%;
-  padding: 20px 20px 30px 15px;
 }
 
 .foot p {
@@ -257,16 +309,44 @@ body {
   font-family: serif;
   text-align: center;
   color: white;
-  padding: 30px;
+  width: 33%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .foot {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   p {
     padding-right: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    height: 180px;
+  }
+  .img-logo {
+    width: 85px !important;
+    height: 85px !important;
+    padding-top: 30px;
+  }
+  .lien-contact {
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+  .lien-contact:hover {
+    color: #606060;
   }
 }
 
