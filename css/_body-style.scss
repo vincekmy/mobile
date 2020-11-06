@@ -99,6 +99,9 @@ body{
         box-shadow: 3px 5px 3px grey;
     }
 }
+iframe{
+    padding: 40px;
+}
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
 
@@ -156,7 +159,12 @@ body{
     .sous-titre{
         padding-top: 30px;
     }
+    iframe{
+    height: 415px;
+    padding: 70px;
+    }
 }
+
 
 @media screen and (min-width: 1025px){
     
@@ -203,5 +211,10 @@ body{
         border: 5px solid black;
         border-radius: 4px;
         box-shadow: 3px 5px 3px grey;
+    }
+    iframe{
+        height: 415px;
+        width: 60%;
+        padding-left: 220px;
     }
 }

@@ -187,6 +187,10 @@ body {
           box-shadow: 3px 5px 3px grey;
 }
 
+iframe {
+  padding: 40px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .comp {
     font-size: 22px !important;
@@ -233,6 +237,10 @@ body {
   }
   .sous-titre {
     padding-top: 30px;
+  }
+  iframe {
+    height: 415px;
+    padding: 70px;
   }
 }
 
@@ -285,6 +293,11 @@ body {
     border-radius: 4px;
     -webkit-box-shadow: 3px 5px 3px grey;
             box-shadow: 3px 5px 3px grey;
+  }
+  iframe {
+    height: 415px;
+    width: 60%;
+    padding-left: 220px;
   }
 }
 
